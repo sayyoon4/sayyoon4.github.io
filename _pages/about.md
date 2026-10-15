@@ -27,9 +27,3 @@ latest_posts:
 **Major** : Jeonbuk National University Statistics / Finance & Pension Economics
 
 **E-mail** : sayyoon4@naver.com
-
-
-
-
-
-
