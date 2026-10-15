@@ -2,13 +2,24 @@
 layout: page
 title: Blog
 permalink: /blog/
-description: 블로그로 연결되는 페이지입니다.
+description: 공부하고 정리한 내용들을 모아둔 곳입니다.
 nav: true
 nav_order: 3
-# ▼ 이 한 줄만 본인 블로그 주소로 바꾸면 됩니다
-blog_url: "https://YOUR-BLOG-URL.example"
 ---
 
-글은 아래 블로그에서 볼 수 있습니다.
+<!--
+  이 목록은 자동으로 만들어집니다.
+  _pages 폴더의 파일 중 앞부분(--- 사이)에 `blog: true` 가 있는 페이지가 여기에 나타납니다.
+  순서는 `blog_order` 숫자가 작은 것부터입니다.
+-->
 
-[블로그 바로가기 →]({{ page.blog_url }}){:target="_blank" rel="noopener"}
+{% assign blog_pages = site.pages | where: "blog", true | sort: "blog_order" %}
+
+<ul class="blog-link-list">
+  {% for item in blog_pages %}
+    <li>
+      <a href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong></a>
+      {% if item.description %}— {{ item.description }}{% endif %}
+    </li>
+  {% endfor %}
+</ul>
