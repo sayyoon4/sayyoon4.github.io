@@ -18,7 +18,7 @@ nav_order: 3
 <ul class="blog-link-list">
   {% for item in blog_pages %}
     <li>
-      <a href="{{ https://www.tistory.com/ }}"><strong>{{ item.title }}</strong></a>
+      <a href="https://www.tistory.com"><strong>{{ item.title }}</strong></a>
       {% if item.description %}— {{ item.description }}{% endif %}
     </li>
   {% endfor %}
