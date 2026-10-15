@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
 subtitle: 전북대학교 통계학과 · 금융연금경제학 연계전공
 
 profile:
