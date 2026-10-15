@@ -8,9 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: >
-    <p>Jeonbuk National University</p>
-    <p>Statistics·Finance &amp; Pension Economics</p>
+  more_info: 
 
 selected_papers: false
 social: true
@@ -24,6 +22,7 @@ latest_posts:
 
 
 ### **About Me**
+
 
 **Major** : Jeonbuk National University Statistics / Finance & Pension Economics
 
