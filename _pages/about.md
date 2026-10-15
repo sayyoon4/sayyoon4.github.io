@@ -23,12 +23,11 @@ latest_posts:
 
 
 
+**About Me**
 
-* About Me
+- Major : Jeonbuk National University Statistics / Finance & Pension Economics
 
-Major : Jeonbuk National University Statistics / Finance & Pension Economics
-
-E-mail : sayyoon4@naver.com
+- E-mail : sayyoon4@naver.com
 
 
 
