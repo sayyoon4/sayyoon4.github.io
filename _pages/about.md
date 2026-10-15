@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: 
+  more_info: >
 
 selected_papers: false
 social: true
@@ -19,10 +19,7 @@ latest_posts:
   enabled: false
 ---
 
-
-
 ### **About Me**
-
 
 **Major** : Jeonbuk National University Statistics / Finance & Pension Economics
 
