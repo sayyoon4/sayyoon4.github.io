@@ -23,7 +23,7 @@ latest_posts:
 
 
 
-| About Me
+### **About Me**
 
 **Major** : Jeonbuk National University Statistics / Finance & Pension Economics
 
